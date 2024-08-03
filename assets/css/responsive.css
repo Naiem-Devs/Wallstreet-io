@@ -1,0 +1,300 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+    :root{
+
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 26px;
+        --f30 : 28px;
+        --f32 : 30px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f48 : 42px;
+      
+      }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 26px;
+        --f30 : 28px;
+        --f32 : 30px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f48 : 42px;
+      
+      }
+      .price-area:before {
+        width: 100%;
+    }
+    
+    .Reviews-area:before {
+        width: 100%;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    
+    .hero-chart {
+        max-width: 90%;
+    }
+    
+    .Features__blk.lg {
+        width: 100%;
+    }
+    
+    .Features__blk {
+        width: 47%;
+        gap: 20px;
+    }
+    
+    .Features__wrp {
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .Discover-area .row {
+    }
+    
+    .price__blk {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+    
+    .Story__content {
+        text-align: center;
+    }
+    .newsLatter__wrp .row {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    .newsLatter__wrp {
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .newsLatter__content {
+        text-align: center;
+    }
+
+.newsLatter__content .thm_btn.v2 {
+    margin: auto;
+}
+.newsLatter__img {
+    width: max-content;
+    margin: auto;
+}
+.footer__nav li a {
+    margin-bottom: 7px;
+}
+
+.footer__nav {
+    margin-bottom: 50px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+    :root{
+
+        --f18 : 16px;
+        --f20 : 16px;
+        --f22 : 18px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+      
+      }
+      .price-area:before {
+        width: 100%;
+    }
+    
+    .Reviews-area:before {
+        width: 100%;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    
+    .hero-chart {
+        max-width: 90%;
+    }
+    
+    .Features__blk.lg {
+        width: 100%;
+    }
+    
+    .Features__blk {
+        width: 100%;
+        gap: 20px;
+    }
+
+.Features__blk h4 {
+    font-size: 22px;
+}
+    
+    .Features__wrp {
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    .price__blk {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+    
+    .Story__content {
+        text-align: center;
+    }
+    .newsLatter__wrp .row {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    .newsLatter__wrp {
+        padding: 30px;
+        padding-bottom: 50px;
+        max-width: 370px;
+        margin-inline: auto;
+    }
+    
+
+.newsLatter__content .thm_btn.v2 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.newsLatter__img {
+    margin: auto;
+    display: block;
+    max-width: 300px;
+}
+
+
+.footer__nav {
+    margin-bottom: 50px;
+}
+
+.footer__nav.v3 {
+    margin-top: -130px;
+}
+
+
+.footer__nav .flex {
+    flex-direction: column;
+}
+
+.footer-area h5 {
+    font-size: 20px;
+}
+.menu-area {
+    display: none;
+}
+
+.sec__title p {
+    min-width: 150px;
+}
+
+.sec__title p:before {
+    width: 100px;
+    left: -70%;
+}
+
+.sec__title p:after {
+    width: 100px;
+    right: -70%;
+}
+
+.hero-content p {
+    font-size: 16px;
+}
+
+.thm_btn {
+    font-size: 16px;
+    padding: 14px 36px;
+}
+
+.thm_btn:after {
+    height: 105px;
+    background: radial-gradient(50% 50% at 50% 50%, #0ADD9C 23%, rgba(0, 0, 0, 0) 100%);
+    top: -50%;
+}
+
+.header__top p {
+    font-size: 14px;
+}
+.Discover__wrp:before {width: 200%;height: 90%;top: -88px;z-index: -1;}
+
+.Discover__content {
+    max-width: 100%;
+    margin-top: 69px;
+}
+
+.Discover__content h4 {
+    font-size: 24px;
+}
+
+.Features__blk i img {
+    object-fit: cover;
+}
+
+.Discover__blk {
+    margin-bottom: 30px;
+}
+
+.Discover-area {
+    padding-bottom: 40px;
+}
+
+.newsLatter__content h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Copyright__blk {
+    text-align: left;
+}
+
+.Copyright__blk p {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Reviews-area {
+    padding-bottom: 0;
+}
+
+.Story-area {
+    padding-top: 0;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
