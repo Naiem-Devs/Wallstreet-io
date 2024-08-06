@@ -8,6 +8,11 @@
     $('.mobile-menu').toggleClass('siteBar');   
     $('body').toggleClass('overflow-hidden');  
   }); 
+  
+ // menu 
+ $('.rd__btn').click( function (event){ 
+    $('.resource__dropdown').toggleClass('show');  
+  }); 
 
 
   // owlCarousel

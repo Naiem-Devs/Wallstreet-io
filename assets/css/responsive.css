@@ -109,7 +109,24 @@
 .footer__nav {
     margin-bottom: 50px;
 }
+.resources__accordion {
+    display: none;
+}
+.resources-area {
+    padding-top: 20px;
+}
+.resources__accordion .accordion-item button {
+    font-size: 14px;
+    font-weight: 700;
+}
 
+.resources__nav__list ul li a {
+    font-size: 14px;
+    padding-left: 12px;
+}
+.resources__sub__nav {
+    margin-bottom: 50px;
+}
 }
 
  
@@ -290,6 +307,32 @@
 
 .Story-area {
     padding-top: 0;
+}
+.faq__accordion .accordion-item button:after {
+    width: 30px;
+    height: 30px;
+}
+.faq-area {
+    padding-top: 0;
+}
+.resources__accordion{
+    display: none;
+}
+.resources-area{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.resources__sub__nav ul li a {
+    font-size: 14px;
+}
+.resources__sub__nav {
+    margin-bottom: 50px;
+}
+.Quick-Start__blk h3 {
+    font-size: 24px;
+}
+.footer-area{
+    padding-top: 70px;
 }
 }
  
