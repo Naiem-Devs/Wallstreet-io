@@ -127,6 +127,15 @@
 .resources__sub__nav {
     margin-bottom: 50px;
 }
+.Navigate__card {
+    margin-bottom: 30px;
+}
+
+.Navigate__card__title {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
 }
 
  
@@ -334,6 +343,20 @@
 .footer-area{
     padding-top: 70px;
 }
+.Navigate__card {
+    margin-bottom: 20px;
+}
+
+.Navigate__card__title {
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.Resources-area .border__style {
+    margin: 40px 0 80px;
+}
+
 }
  
 /* Large Mobile screen :480px. */
